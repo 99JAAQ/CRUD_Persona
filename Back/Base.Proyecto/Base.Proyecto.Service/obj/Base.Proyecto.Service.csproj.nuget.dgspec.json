@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Service\\Base.Proyecto.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Common\\Base.Proyecto.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Common\\Base.Proyecto.Common.csproj",
+        "projectName": "Base.Proyecto.Common",
+        "projectPath": "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Common\\Base.Proyecto.Common.csproj",
+        "packagesPath": "C:\\Users\\Jhon Agudelo Quejada\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jhon Agudelo Quejada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Infraestructure\\Base.Proyecto.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Infraestructure\\Base.Proyecto.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Infraestructure\\Base.Proyecto.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Infraestructure\\Base.Proyecto.Infraestructure.csproj",
+        "projectName": "Base.Proyecto.Infraestructure",
+        "projectPath": "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Infraestructure\\Base.Proyecto.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\Jhon Agudelo Quejada\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jhon Agudelo Quejada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Service\\Base.Proyecto.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Service\\Base.Proyecto.Service.csproj",
+        "projectName": "Base.Proyecto.Service",
+        "projectPath": "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Service\\Base.Proyecto.Service.csproj",
+        "packagesPath": "C:\\Users\\Jhon Agudelo Quejada\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jhon Agudelo Quejada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Common\\Base.Proyecto.Common.csproj": {
+                "projectPath": "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Common\\Base.Proyecto.Common.csproj"
+              },
+              "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Infraestructure\\Base.Proyecto.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Jhon Agudelo Quejada\\Desktop\\Base proyecto\\Base.Proyecto\\Base.Proyecto.Infraestructure\\Base.Proyecto.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
